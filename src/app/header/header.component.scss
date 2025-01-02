@@ -1,0 +1,47 @@
+@use '../../styles/utils.scss' as utils;
+@use '../../styles/variables.scss' as variables;
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+
+    .header__menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 2em;
+
+        .header__link {
+            font-size: variables.$size-xs;
+            text-decoration: none;
+            font-weight: 600;
+            color: variables.$clr-slate600;
+            letter-spacing: -0.05em;
+            transition: color 0.3s;
+
+            &:hover{
+                color: variables.$clr-rose;
+            }
+        }
+
+        .header__line{
+            border: 1px solid variables.$clr-slate600;
+            padding-top: 1.5em;
+        }
+
+        .header__sun {
+            display: block;
+            color: variables.$clr-slate600;
+            width: variables.$size-base;
+            height: variables.$size-base;
+        }
+
+        .header__resume {
+            font-size: variables.$size-xs;
+        }
+    }
+}

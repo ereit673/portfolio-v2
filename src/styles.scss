@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+@use "./styles/variables.scss" as variables;
+
+@font-face {
+  font-family: "General Sans";
+  src: url(/public/fonts/GeneralSans-Bold.ttf);
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "General Sans";
+  src: url(/public/fonts/GeneralSans-Medium.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "General Sans";
+  src: url(/public/fonts/GeneralSans-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "General Sans";
+  src: url(/public/fonts/GeneralSans-Semibold.ttf);
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "General Sans", sans-serif;
+  background-color: variables.$clr-dark;
+  color: variables.$clr-light;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button{
+    display: inline-block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+a {
+    color: variables.$clr-rose;
+}
+
+strong {
+    color: variables.$clr-indigo;
+}
