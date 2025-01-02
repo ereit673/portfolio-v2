@@ -28,7 +28,14 @@
 * {
   margin: 0;
   padding: 0;
+
   line-height: calc(1em + 0.5rem);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
 }
 
 html {
@@ -41,6 +48,11 @@ body {
   color: variables.$clr-light;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 img,
 svg {
   display: block;
@@ -48,18 +60,18 @@ svg {
   user-select: none;
 }
 
-button{
-    display: inline-block;
-    border: none;
-    background: none;
-    cursor: pointer;
-    color: inherit;
+button {
+  display: inline-block;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
 }
 
 a {
-    color: variables.$clr-rose;
+  color: variables.$clr-rose;
 }
 
 strong {
-    color: variables.$clr-indigo;
+  color: variables.$clr-indigo;
 }
