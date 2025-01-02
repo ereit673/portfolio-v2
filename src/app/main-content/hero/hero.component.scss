@@ -1,0 +1,133 @@
+@use "../../../styles/utils.scss" as utils;
+@use "../../../styles/variables.scss" as variables;
+
+.hero {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.hero__img {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  object-position: top;
+}
+
+.hero__subtitle {
+  color: variables.$clr-slate800;
+  font-size: variables.$size-base;
+  line-height: 0.9;
+}
+
+.hero__title {
+  color: variables.$clr-slate400;
+  font-size: variables.$size-4xl;
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+}
+
+.hero__description {
+  max-width: 60ch;
+  font-size: variables.$size-sm;
+  color: variables.$clr-slate600;
+}
+
+.hero__btn {
+  text-transform: capitalize;
+  font-size: variables.$size-sm;
+}
+
+//  xs
+@media (min-width: 475px) {
+  .hero {
+    gap: 1.5rem;
+  }
+
+  .hero__img {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .hero__subtitle {
+    font-size: variables.$size-lg;
+  }
+
+  .hero__title {
+    font-size: variables.$size-5xl;
+  }
+
+  .hero__description {
+    font-size: variables.$size-base;
+  }
+
+  .hero__btn {
+    font-size: variables.$size-base;
+  }
+}
+
+//  sm
+//  @media (min-width: 640px) {}
+
+//  md
+//  @media (min-width: 768px) {}
+
+//  lg
+@media (min-width: 1024px) {
+  .hero__img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .hero__subtitle {
+    font-size: variables.$size-2xl;
+  }
+
+  .hero__title {
+    font-size: variables.$size-7xl;
+  }
+
+  .hero__description {
+    font-size: variables.$size-lg;
+  }
+
+  .hero__btn {
+    font-size: variables.$size-lg;
+  }
+}
+
+//  xl
+@media (min-width: 1280px) {
+  .hero {
+    gap: 2rem;
+  }
+
+  .hero__img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .hero__subtitle {
+    font-size: variables.$size-4xl;
+  }
+
+  .hero__title {
+    font-size: variables.$size-9xl;
+  }
+
+  .hero__description {
+    font-size: variables.$size-xl;
+  }
+
+  .hero__btn {
+    font-size: variables.$size-xl;
+  }
+}
+
+//  2xl
+//  @media (min-width: 1536px) {}
