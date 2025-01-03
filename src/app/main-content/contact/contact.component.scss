@@ -1,0 +1,89 @@
+@use "../../../styles/utils.scss" as utils;
+@use "../../../styles/variables.scss" as variables;
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.contact__title {
+    font-size: variables.$size-2xl;
+    color: variables.$clr-light;
+    text-transform: capitalize;
+}
+
+.contact__description {
+    font-size: variables.$size-sm;
+    color: variables.$clr-slate600;
+    max-width: 60ch;
+}
+
+.contact__btn {
+    font-size: variables.$size-sm;
+}
+
+//  xs 
+ @media (min-width: 475px) {
+    .contact{
+        gap: 1.5rem;
+    }
+    
+    .contact__title {
+        font-size: variables.$size-3xl;
+    }
+    
+    .contact__description {
+        font-size: variables.$size-base;
+    }
+    
+    .contact__btn {
+        font-size: variables.$size-base;
+    }
+ } 
+
+//  sm 
+//  @media (min-width: 640px) {} 
+
+//  md 
+//  @media (min-width: 768px) {} 
+
+//  lg 
+ @media (min-width: 1024px) {    
+    .contact__title {
+        font-size: variables.$size-4xl;
+    }
+    
+    .contact__description {
+        font-size: variables.$size-lg;
+    }
+    
+    .contact__btn {
+        font-size: variables.$size-lg;
+    }
+ } 
+
+//  xl 
+ @media (min-width: 1280px) {
+    .contact{
+        gap: 2rem;
+    }
+    
+    .contact__title {
+        font-size: variables.$size-5xl;
+    }
+    
+    .contact__description {
+        font-size: variables.$size-xl;
+    }
+    
+    .contact__btn {
+        font-size: variables.$size-xl;
+    }
+ } 
+
+//  2xl 
+//  @media (min-width: 1536px) {} 

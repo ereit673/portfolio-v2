@@ -23,6 +23,15 @@
 .featured__link {
   width: variables.$size-2xl;
   height: variables.$size-2xl;
+  
+
+  img{
+    transition: transform 0.3s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.2);
+}
 }
 
 .featured__description {
