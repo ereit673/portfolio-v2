@@ -1,0 +1,14 @@
+<section class="projects container section">
+  <h2 class="projects__title">Projects</h2>
+  <p class="projects__description">
+    Explore a selection of my work here - Interact with projects to see my
+    skills in action.
+  </p>
+    @for (project of projects; track project.id; let o = $odd) {
+      <div class="projects__project">
+        <app-project [project]="project" [odd]="o ? true : false"/>
+      </div>
+    }
+  
+  
+</section>

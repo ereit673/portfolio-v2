@@ -55,6 +55,13 @@
   text-transform: capitalize;
 }
 
+.featured__info-img{
+  display: inline-block;
+  width: variables.$size-base;
+  margin-right: 0.25em;
+  vertical-align: middle;
+}
+
 .featured__tech-stack {
   list-style: none;
 }
@@ -114,6 +121,10 @@
     font-size: variables.$size-base;
   }
 
+  .featured__info-img{
+    width: variables.$size-lg;
+  }
+
   .featured__img-container {
     margin-top: 1.5rem;
     grid-gap: 1.5rem;
@@ -156,6 +167,10 @@
   .featured__info {
     font-size: variables.$size-lg;
   }
+
+  .featured__info-img{
+    width: variables.$size-xl;
+  }
 }
 
 //  xl
@@ -184,6 +199,10 @@
 
   .featured__info {
     font-size: variables.$size-xl;
+  }
+
+  .featured__info-img{
+    width: variables.$size-2xl;
   }
 
   .featured__img-container {

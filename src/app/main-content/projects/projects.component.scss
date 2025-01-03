@@ -1,0 +1,72 @@
+@use "../../../styles/utils.scss" as utils;
+@use "../../../styles/variables.scss" as variables;
+
+.projects {
+  text-align: center;
+}
+
+.projects__title {
+  font-size: variables.$size-2xl;
+  color: variables.$clr-light;
+}
+
+.projects__description {
+  max-width: 60ch;
+  font-size: variables.$size-sm;
+  color: variables.$clr-slate600;
+  margin: 1rem auto;
+}
+
+.projects__project:not(:last-child) {
+    margin-bottom: 5rem;
+}
+
+//  xs
+@media (min-width: 475px) {
+  .projects__title {
+    font-size: variables.$size-3xl;
+  }
+
+  .projects__description {
+    font-size: variables.$size-base;
+    margin: 1.5rem auto;
+  }
+
+  
+}
+
+//  sm
+ @media (min-width: 640px) {
+    .projects__project:not(:last-child) {
+        margin-bottom: 0;
+    }
+ }
+
+//  md
+//  @media (min-width: 768px) {}
+
+//  lg
+@media (min-width: 1024px) {
+  .projects__title {
+    font-size: variables.$size-4xl;
+  }
+
+  .projects__description {
+    font-size: variables.$size-lg;
+  }
+}
+
+//  xl
+@media (min-width: 1280px) {
+  .projects__title {
+    font-size: variables.$size-5xl;
+  }
+
+  .projects__description {
+    font-size: variables.$size-xl;
+    margin: 2rem auto;
+  }
+}
+
+//  2xl
+//  @media (min-width: 1536px) {}
