@@ -3,9 +3,12 @@ import { ProjectComponent } from "./project/project.component";
 import { ProjectsService } from './projects.service';
 import { Project } from './project.model';
 
+import { TranslateModule} from '@ngx-translate/core';
+
+
 @Component({
   selector: 'app-projects',
-  imports: [ProjectComponent],
+  imports: [ProjectComponent, TranslateModule],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })

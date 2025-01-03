@@ -1,0 +1,62 @@
+{
+  "header": {
+    "about_me": "Über mich",
+    "work": "Portfolio",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "subtitle": "Hi, ich bin Alex",
+    "title1": "FRONT-END",
+    "title2": "WEBENTWICKLER.",
+    "description1": "Ein leidenschaftlicher ",
+    "description2": "Front-end Webentwickler",
+    "description3": " spezialisiert auf den Bau von pixelgenauen, interaktiven Websites und Anwendungen.",
+    "btn": "Kontaktiere mich"
+  },
+  "about": {
+    "title": "Über mich",
+    "description1": "Hallo! Willkommen auf meiner Website. Ich bin ein ",
+    "description2": "Frontend-Entwickler",
+    "description3": "mit Sitz in München, Deutschland. Ich bin begeistert davon, komplexe Probleme zu lösen und neue Herausforderungen anzunehmen. Es freut mich sehr, dass du hier bist.",
+    "description4": "Ich bin diszipliniert und habe eine starke logische Denkweise. Menschen, die mich kennen, sagen, ich sei besessen, und sie haben wahrscheinlich recht. Ich bin ehrgeizig und liebe es, mich in neue Dinge zu vertiefen.",
+    "description5": "Ich liebe es, Probleme zu lösen und kreative Lösungen zu finden, um digitale Ideen in die Realität umzusetzen. Programmieren fordert mich jeden Tag heraus und begeistert mich für das, was ich tue. Schau dir meine Projekte an, um zu sehen, wie ich alles zusammenbringe."
+  },
+  "skills": {
+    "title": "Meine Fähigkeiten",
+    "description": "Ich habe meine Frontend-Entwicklungsfähigkeiten erweitert, die es mir ermöglicht haben, verschiedene reale Projekte zu erstellen.",
+    "btn": "Kontaktiere mich"
+  },
+  "featured": {
+    "subtitle": "Hervorgehobenes Projekt",
+    "description": "Diese App ist ein Slack-Klon. Sie revolutioniert die Teamkommunikation und -zusammenarbeit mit ihrer intuitiven Benutzeroberfläche, Echtzeitnachrichten und einer robusten Kanalorganisation.",
+    "label1": "Technologie-Stack",
+    "label2": "Projekttyp",
+    "label3": "Zeitraum",
+    "info": "Dezember 2024 - Januar 2025"
+  },
+  "projects": {
+    "title": "Projekte",
+    "description": "Erkunde hier eine Auswahl meiner Arbeiten – interagiere mit den Projekten, um meine Fähigkeiten in Aktion zu sehen."
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "description1": "Kontaktiere mich über dieses Formular. Ich würde mich freuen, von dir zu hören, mehr über deine Ideen zu erfahren und mit meinen Fähigkeiten zu deinen Projekten beizutragen.",
+    "description2": "Brauchst du einen Frontend-Entwickler?",
+    "description3": " Lass uns sprechen!",
+    "placeholder_name": "Dein Name",
+    "warningtext_name": "Dein Name ist erforderlich",
+    "placeholder_email": "Deine E-Mail",
+    "warningtext_email": "Deine E-Mail ist erforderlich",
+    "placeholder_message": "Deine Nachricht",
+    "warningtext_message": "Deine Nachricht ist leer",
+    "checkbox_label1": "Ich habe die ",
+    "checkbox_label2": "Datenschutzrichtlinie",
+    "checkbox_label3": " gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
+    "warningtext_checkbox": "Bitte akzeptiere die Datenschutzrichtlinie",
+    "btn": "Nachricht senden",
+    "success-message_title": "Danke für deine Nachricht!"
+  },
+  "footer": {
+    "link": "Impressum"
+  }
+}

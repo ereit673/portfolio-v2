@@ -1,8 +1,11 @@
 <section class="projects container section">
-  <h2 class="projects__title">Projects</h2>
+  <h2 class="projects__title">{{
+    "projects.title" | translate
+  }}</h2>
   <p class="projects__description">
-    Explore a selection of my work here - Interact with projects to see my
-    skills in action.
+    {{
+      "projects.description" | translate
+    }}
   </p>
     @for (project of projects; track project.id; let o = $odd) {
       <div class="projects__project">

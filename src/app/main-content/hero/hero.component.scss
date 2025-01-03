@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  margin-top: 2rem;
+  height: calc(100dvh - 88px);
 }
 
 .hero__img {
@@ -75,10 +75,18 @@
 //  @media (min-width: 640px) {}
 
 //  md
-//  @media (min-width: 768px) {}
+@media (min-width: 768px) {
+  .hero {
+    height: calc(100dvh - 96px);
+  }
+}
 
 //  lg
 @media (min-width: 1024px) {
+  .hero {
+    height: calc(100dvh - 100px);
+  }
+
   .hero__img {
     width: 8rem;
     height: 8rem;

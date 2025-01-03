@@ -1,9 +1,108 @@
 <section class="contact container section">
-  <h2 class="contact__title">Get in contact</h2>
-  <p class="contact__description">
-    Contact me through this form. I’d love to hear from you, learn about your
-    ideas, and contribute to your projects with my skills. <br><br>Need a Frontend
-    developer? <strong>Let’s talk!</strong>
-  </p>
-  <a class="contact__btn btn" href="mailto:contact@alexeremie.com" target="_blank">Contact</a>
+  <div class="contact__info">
+    <h2 class="contact__title">{{ "contact.title" | translate }}</h2>
+    <p class="contact__description">
+      {{ "contact.description1" | translate }} <br /><br />{{
+        "contact.description2" | translate
+      }}<strong>{{ "contact.description3" | translate }}</strong>
+    </p>
+  </div>
+
+  <form
+    (ngSubmit)="onSubmit(contactForm)"
+    class="contact__form"
+    #contactForm="ngForm"
+  >
+    <div class="contact__input-container">
+      <input
+        #name="ngModel"
+        [(ngModel)]="contactData.name"
+        placeholder="{{ 'contact.placeholder_name' | translate }}"
+        class="contact__form-input"
+        [class]="{
+          'contact_input-border-red': name.touched && name.invalid,
+          'contact_input-border-green': name.touched && name.valid
+        }"
+        type="text"
+        name="name"
+        required
+      />
+      @if(!name.valid && name.touched){
+      <span class="contact__warning-text">{{
+        "contact.warningtext_name" | translate
+      }}</span>
+      }
+    </div>
+    <div class="contact__input-container">
+      <input
+        placeholder="{{ 'contact.placeholder_email' | translate }}"
+        class="contact__form-input"
+        [class]="{
+          'contact_input-border-red': email.touched && email.invalid,
+          'contact_input-border-green': email.touched && email.valid
+        }"
+        type="email"
+        name="email"
+        #email="ngModel"
+        [(ngModel)]="contactData.email"
+        required
+        pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
+      />
+      @if(!email.valid && email.touched){
+      <span class="contact__warning-text">{{
+        "contact.warningtext_email" | translate
+      }}</span>
+      }
+    </div>
+    <div class="contact__input-container">
+      <textarea
+        placeholder="{{ 'contact.placeholder_message' | translate }}"
+        rows="6"
+        class="contact__form-input"
+        [class]="{
+          'contact_input-border-red': message.touched && message.invalid,
+          'contact_input-border-green': message.touched && message.valid
+        }"
+        #message="ngModel"
+        [(ngModel)]="contactData.message"
+        id="message"
+        name="message"
+        required
+      ></textarea>
+      @if(!message.valid && message.touched){
+      <span class="contact__warning-text">{{
+        "contact.warningtext_message" | translate
+      }}</span>
+      }
+    </div>
+    <div>
+      <input
+        #checkbox="ngModel"
+        [(ngModel)]="contactData.checkbox"
+        type="checkbox"
+        id="checkbox"
+        name="checkbox"
+        required
+      />
+      <label class="contact__form-label" for="checkbox"
+        >{{ "contact.checkbox_label1" | translate
+        }}<a href="">{{ "contact.checkbox_label2" | translate }}</a
+        >{{ "contact.checkbox_label3" | translate }}
+      </label>
+      @if((checkbox.invalid && name.valid && email.valid && message.valid) ||
+      (checkbox.invalid && checkbox.touched)){
+      <span class="contact__warning-text">{{
+        "contact.warningtext_checkbox" | translate
+      }}</span>
+      }
+    </div>
+
+    <button class="contact__btn btn" type="submit">{{ "contact.btn" | translate }}</button>
+    @if (showSuccessMessage) {
+    <div class="contact__success-message__container">
+      <img class="contact__success-img" src="svg/success.svg" alt="" />
+      <h3 class="contact__success-title">{{ "contact.success-message_title" | translate }}</h3>
+    </div>
+    }
+  </form>
 </section>
