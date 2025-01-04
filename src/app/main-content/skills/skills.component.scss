@@ -44,6 +44,8 @@
 }
 
 .skills__skill-icon {
+  margin-inline: auto;
+  height: 45px;
   @keyframes jump {
     0%,
     100% {
@@ -54,9 +56,6 @@
       transform: translateY(-20px);
     }
   }
-
-  margin-inline: auto;
-  height: 45px;
 
   &:hover {
     animation: jump 0.5s ease-in-out infinite;

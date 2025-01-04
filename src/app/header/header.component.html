@@ -70,7 +70,9 @@
 
 @if(isMobileNavOpened){
 <app-mobile-nav
+  (newLanguage)="onChangeLanguage($event)"
   (changeTheme)="toggleTheme()"
   [(isMobileNavOpened)]="isMobileNavOpened"
+  [language]="language"
 />
 }

@@ -1,4 +1,10 @@
-<div class="mobile-nav">
+<div
+  class="mobile-nav"
+  data-aos="fade-left"
+  data-aos-delay="150"
+  data-aos-duration="600"
+  data-aos-easing="ease-in-out"
+>
   <nav class="container">
     <button class="mobile-nav__bars" (click)="onToggleMobileNav()">
       <svg
@@ -15,23 +21,35 @@
     </button>
     <ul class="mobile-nav__menu">
       <li>
-        <a class="mobile-nav__link" href="#about">{{
-          "header.about_me" | translate
-        }}</a>
+        <a
+          (click)="onToggleMobileNav()"
+          class="mobile-nav__link"
+          href="#about"
+          >{{ "header.about_me" | translate }}</a
+        >
       </li>
       <li>
-        <a class="mobile-nav__link" href="#featured">{{
-          "header.work" | translate
-        }}</a>
+        <a
+          (click)="onToggleMobileNav()"
+          class="mobile-nav__link"
+          href="#featured"
+          >{{ "header.work" | translate }}</a
+        >
       </li>
       <li>
-        <a class="mobile-nav__link" href="#contact">{{
-          "header.contact" | translate
-        }}</a>
+        <a
+          (click)="onToggleMobileNav()"
+          class="mobile-nav__link"
+          href="#contact"
+          >{{ "header.contact" | translate }}</a
+        >
       </li>
       <li class="mobile-nav__link-line"></li>
       <li>
-        <button (click)="onToggleTheme()" class="mobile-nav__sun">
+        <button
+          (click)="onToggleTheme()"
+          class="mobile-nav__sun"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -43,7 +61,25 @@
           </svg>
         </button>
       </li>
-      <li><a class="mobile-nav__btn btn" href=""></a></li>
+      <li class="btn-container">
+        <button
+          (click)="onChangeLanguage('de')"
+          [class.mobile-nav__language-btn-inactive]="language === 'en'"
+          class="mobile-nav__language-btn btn"
+          href="#"
+        >
+          DE
+        </button>
+
+        <button
+          (click)="onChangeLanguage('en')"
+          [class.mobile-nav__language-btn-inactive]="language === 'de'"
+          class="mobile-nav__language-btn btn"
+          href="#"
+        >
+          EN
+        </button>
+      </li>
     </ul>
   </nav>
 </div>

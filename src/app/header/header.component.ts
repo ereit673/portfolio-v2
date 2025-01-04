@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { MobileNavComponent } from './mobile-nav/mobile-nav.component';
 
@@ -11,16 +11,23 @@ import { MobileNavComponent } from './mobile-nav/mobile-nav.component';
 export class HeaderComponent {
   constructor(private translate: TranslateService) {}
 
-  language: 'de' | 'en' = 'de';
+  @Output() newLanguage = new EventEmitter<string>();
+  @Input({ required: true }) language!: string;
   isMobileNavOpened: boolean = false;
 
-  onChangeLanguage(language: 'de' | 'en') {
-    this.language = language;
-    this.translate.use(language);
+  onChangeLanguage(newLanguage: string) {
+    this.newLanguage.emit(newLanguage);
   }
 
   onToggleMobileNav() {
     this.isMobileNavOpened = !this.isMobileNavOpened;
+    if (this.isMobileNavOpened) {
+      document.body.classList.add('no-scroll');
+      document.documentElement.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+      document.documentElement.classList.remove('no-scroll');
+    }
   }
 
   toggleTheme() {

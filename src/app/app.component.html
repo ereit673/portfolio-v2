@@ -1,5 +1,3 @@
-<app-header />
-<!-- <app-main-content/> -->
+<app-header (newLanguage)="setLanguage($event)" [language]="language"/>
  <router-outlet />
- <!-- <app-imprint></app-imprint> -->
 <app-footer/>
