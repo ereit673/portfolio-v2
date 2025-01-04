@@ -1,5 +1,4 @@
 @use "../../../styles/utils.scss" as utils;
-@use "../../../styles/variables.scss" as variables;
 
 .about {
     display: flex;
@@ -14,14 +13,14 @@
 }
 
 .about__title {
-    font-size: variables.$size-2xl;
-    color: variables.$clr-light;
+    font-size: var(--size-2xl);
+    color: var(--clr-light);
 }
 
 .about__description {
     max-width: 60ch;
-    font-size: variables.$size-sm;
-    color: variables.$clr-slate600;
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
 }
 
 .about__description-box{
@@ -31,8 +30,8 @@
 }
 
 .about__icon {
-    width: variables.$size-5xl;
-    height: variables.$size-5xl;
+    width: var(--size-5xl);
+    height: var(--size-5xl);
 }
 
 .about__img {
@@ -53,11 +52,11 @@
     }
     
     .about__title {
-        font-size: variables.$size-3xl;
+        font-size: var(--size-3xl);
     }
     
     .about__description {
-        font-size: variables.$size-base;
+        font-size: var(--size-base);
     }
     
     .about__description-box{
@@ -84,11 +83,11 @@
     }
     
     .about__title {
-        font-size: variables.$size-4xl;
+        font-size: var(--size-4xl);
     }
     
     .about__description {
-        font-size: variables.$size-lg;
+        font-size: var(--size-lg);
     }
  } 
 
@@ -103,11 +102,11 @@
     }
 
     .about__title {
-        font-size: variables.$size-5xl;
+        font-size: var(--size-5xl);
     }
     
     .about__description {
-        font-size: variables.$size-xl;
+        font-size: var(--size-xl);
     }
 
     .about__img {

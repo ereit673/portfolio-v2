@@ -1,5 +1,4 @@
 @use "../../styles/utils.scss" as utils;
-@use "../../styles/variables.scss" as variables;
 
 .imprint {
   text-align: center;
@@ -18,31 +17,31 @@
 }
 
 .imprint__back-arrow {
-  width: variables.$size-xl;
+  width: var(--size-xl);
 }
 
 .imprint__title {
-  color: variables.$clr-slate400;
-  font-size: variables.$size-4xl;
+  color: var(--clr-slate400);
+  font-size: var(--size-4xl);
 }
 
 .imprint__subtitle {
-  color: variables.$clr-slate800;
-  font-size: variables.$size-base;
+  color: var(--clr-slate800);
+  font-size: var(--size-base);
 }
 
 .imprint__address {
-  font-size: variables.$size-sm;
-  color: variables.$clr-slate600;
+  font-size: var(--size-sm);
+  color: var(--clr-slate600);
 }
 
 .imprint__contact {
-  font-size: variables.$size-sm;
+  font-size: var(--size-sm);
 }
 
 .imprint__email {
-  font-size: variables.$size-sm;
-  color: variables.$clr-slate600;
+  font-size: var(--size-sm);
+  color: var(--clr-slate600);
 }
 
 //  xs
@@ -52,23 +51,23 @@
   }
 
   .imprint__title {
-    font-size: variables.$size-5xl;
+    font-size: var(--size-5xl);
   }
 
   .imprint__subtitle {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 
   .imprint__address {
-    font-size: variables.$size-base;
+    font-size: var(--size-base);
   }
 
   .imprint__contact {
-    font-size: variables.$size-base;
+    font-size: var(--size-base);
   }
 
   .imprint__email {
-    font-size: variables.$size-base;
+    font-size: var(--size-base);
   }
 }
 
@@ -79,7 +78,7 @@
   }
 
   .imprint__back-arrow {
-    width: variables.$size-3xl;
+    width: var(--size-3xl);
   }
 }
 
@@ -97,27 +96,27 @@
   }
 
   .imprint__back-arrow {
-    width: variables.$size-4xl;
+    width: var(--size-4xl);
   }
 
   .imprint__title {
-    font-size: variables.$size-7xl;
+    font-size: var(--size-7xl);
   }
 
   .imprint__subtitle {
-    font-size: variables.$size-2xl;
+    font-size: var(--size-2xl);
   }
 
   .imprint__address {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 
   .imprint__contact {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 
   .imprint__email {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 }
 
@@ -128,27 +127,27 @@
   }
 
   .imprint__back-arrow {
-    width: variables.$size-5xl;
+    width: var(--size-5xl);
   }
 
   .imprint__title {
-    font-size: variables.$size-9xl;
+    font-size: var(--size-9xl);
   }
 
   .imprint__subtitle {
-    font-size: variables.$size-4xl;
+    font-size: var(--size-4xl);
   }
 
   .imprint__address {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
   }
 
   .imprint__contact {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
   }
 
   .imprint__email {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
   }
 }
 

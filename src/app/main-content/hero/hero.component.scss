@@ -1,5 +1,4 @@
 @use "../../../styles/utils.scss" as utils;
-@use "../../../styles/variables.scss" as variables;
 
 .hero {
   text-align: center;
@@ -20,27 +19,27 @@
 }
 
 .hero__subtitle {
-  color: variables.$clr-slate800;
-  font-size: variables.$size-base;
+  color: var(--clr-slate800);
+  font-size: var(--size-base);
   line-height: 0.9;
 }
 
 .hero__title {
-  color: variables.$clr-slate400;
-  font-size: variables.$size-4xl;
+  color: var(--clr-slate400);
+  font-size: var(--size-4xl);
   letter-spacing: -0.05em;
   line-height: 0.9;
 }
 
 .hero__description {
   max-width: 60ch;
-  font-size: variables.$size-sm;
-  color: variables.$clr-slate600;
+  font-size: var(--size-sm);
+  color: var(--clr-slate600);
 }
 
 .hero__btn {
   text-transform: capitalize;
-  font-size: variables.$size-sm;
+  font-size: var(--size-sm);
 }
 
 //  xs
@@ -55,19 +54,19 @@
   }
 
   .hero__subtitle {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 
   .hero__title {
-    font-size: variables.$size-5xl;
+    font-size: var(--size-5xl);
   }
 
   .hero__description {
-    font-size: variables.$size-base;
+    font-size: var(--size-base);
   }
 
   .hero__btn {
-    font-size: variables.$size-base;
+    font-size: var(--size-base);
   }
 }
 
@@ -93,19 +92,19 @@
   }
 
   .hero__subtitle {
-    font-size: variables.$size-2xl;
+    font-size: var(--size-2xl);
   }
 
   .hero__title {
-    font-size: variables.$size-7xl;
+    font-size: var(--size-7xl);
   }
 
   .hero__description {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 
   .hero__btn {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 }
 
@@ -121,19 +120,19 @@
   }
 
   .hero__subtitle {
-    font-size: variables.$size-4xl;
+    font-size: var(--size-4xl);
   }
 
   .hero__title {
-    font-size: variables.$size-9xl;
+    font-size: var(--size-9xl);
   }
 
   .hero__description {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
   }
 
   .hero__btn {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
   }
 }
 

@@ -1,5 +1,4 @@
 @use "../../styles/utils.scss" as utils;
-@use "../../styles/variables.scss" as variables;
 
 .header {
   display: flex;
@@ -12,39 +11,40 @@
   display: none;
 }
 
-.header__languages-container{
+.header__languages-container {
   display: flex;
   gap: 1rem;
 }
 
-.header__language-btn{
+.header__language-btn {
   cursor: unset;
-  &:hover{
-    &:hover{
+  &:hover {
+    &:hover {
       transform: none;
-      box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5), 0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px variables.$clr-rose;
-
-  }
+      box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5),
+        0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--clr-rose);
+    }
   }
 }
 
 .header__language-btn-inactive {
   cursor: pointer;
-  background-color: variables.$clr-slate600;
+  background-color: var(--clr-slate600);
   box-shadow: none;
 
-  &:hover{
-    &:hover{
+  &:hover {
+    &:hover {
       transform: translateY(-3px);
-      box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25), 0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px variables.$clr-rose;
-  }
+      box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25),
+        0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-rose);
+    }
   }
 }
 
 .header__bars {
-  color: variables.$clr-light;
-  width: variables.$size-2xl;
-  height: variables.$size-2xl;
+  color: var(--clr-light);
+  width: var(--size-2xl);
+  height: var(--size-2xl);
   display: block;
 }
 
@@ -68,31 +68,31 @@
   }
 
   .header__link {
-    font-size: variables.$size-xs;
+    font-size: var(--size-xs);
     text-decoration: none;
     font-weight: 600;
-    color: variables.$clr-slate600;
+    color: var(clr-slate600);
     letter-spacing: -0.05em;
     transition: color 0.3s;
     &:hover {
-      color: variables.$clr-rose;
+      color: var(--clr-rose);
     }
   }
 
   .header__line {
-    border: 1px solid variables.$clr-slate600;
+    border: 1px solid var(--clr-slate600);
     padding-top: 1.5em;
   }
 
   .header__sun {
     display: block;
-    color: variables.$clr-slate600;
-    width: variables.$size-base;
-    height: variables.$size-base;
+    color: var(--clr-slate600);
+    width: var(--size-base);
+    height: var(--size-base);
   }
 
   .header__language-btn {
-    font-size: variables.$size-xs;
+    font-size: var(--size-xs);
   }
 
   .header__bars {
@@ -107,16 +107,16 @@
   }
 
   .header__link {
-    font-size: variables.$size-sm;
+    font-size: var(--size-sm);
   }
 
   .header__sun {
-    width: variables.$size-xl;
-    height: variables.$size-xl;
+    width: var(--size-xl);
+    height: var(--size-xl);
   }
 
   .header__language-btn {
-    font-size: variables.$size-sm;
+    font-size: var(--size-sm);
   }
 }
 

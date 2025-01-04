@@ -10,12 +10,17 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 export class MobileNavComponent {
   constructor(private translate: TranslateService) {}
 
-  @Input({required: true}) isMobileNavOpened: boolean = false;
+  @Input({ required: true }) isMobileNavOpened: boolean = false;
   @Output() isMobileNavOpenedChange = new EventEmitter<boolean>();
 
-  onToggleMobileNav(){
+  onToggleMobileNav() {
     this.isMobileNavOpened = !this.isMobileNavOpened;
 
     this.isMobileNavOpenedChange.emit(this.isMobileNavOpened);
+  }
+
+  toggleTheme() {
+    const body = document.body;
+    body.classList.toggle('light-mode');
   }
 }

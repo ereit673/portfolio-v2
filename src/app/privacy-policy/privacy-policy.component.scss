@@ -1,11 +1,10 @@
 @use "../../styles/utils.scss" as utils;
-@use "../../styles/variables.scss" as variables;
 
 .privacy {
   text-align: center;
   position: relative;
   margin: 2rem auto;
-  color: variables.$clr-slate600;
+  color: var(--clr-slate600);
 }
 
 .privacy__back-arrow-wrapper {
@@ -15,7 +14,7 @@
 }
 
 .privacy__back-arrow {
-  width: variables.$size-xl;
+  width: var(--size-xl);
 }
 
 .privacy > * + * {
@@ -23,18 +22,18 @@
 }
 
 h1 {
-  color: variables.$clr-slate400;
-  font-size: variables.$size-2xl;
+  color: var(--clr-slate400);
+  font-size: var(--size-2xl);
 }
 
 h2 {
-  color: variables.$clr-slate800;
-  font-size: variables.$size-lg;
+  color: var(--clr-slate800);
+  font-size: var(--size-lg);
 }
 
 h3 {
-  color: variables.$clr-slate600;
-  font-size: variables.$size-base;
+  color: var(--clr-slate600);
+  font-size: var(--size-base);
 }
 
 h4 {
@@ -45,8 +44,8 @@ h4,
 p,
 a,
 li {
-  font-size: variables.$size-sm;
-  color: variables.$clr-slate600;
+  font-size: var(--size-sm);
+  color: var(--clr-slate600);
   max-width: 100ch;
   margin-inline: auto;
 }
@@ -54,29 +53,29 @@ li {
 //  xs
 @media (min-width: 475px) {
   h1 {
-    font-size: variables.$size-3xl;
+    font-size: var(--size-3xl);
   }
 
   h2 {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
   }
 
   h3 {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 
   h4,
   p,
   a,
   li {
-    font-size: variables.$size-base;
+    font-size: var(--size-base);
   }
 }
 
 //  sm
 @media (min-width: 640px) {
   .privacy__back-arrow {
-    width: variables.$size-3xl;
+    width: var(--size-3xl);
   }
 }
 
@@ -86,52 +85,52 @@ li {
 //  lg
 @media (min-width: 1024px) {
   .privacy__back-arrow {
-    width: variables.$size-4xl;
+    width: var(--size-4xl);
   }
 
   h1 {
-    font-size: variables.$size-4xl;
+    font-size: var(--size-4xl);
   }
 
   h2 {
-    font-size: variables.$size-2xl;
+    font-size: var(--size-2xl);
   }
 
   h3 {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
   }
 
   h4,
   p,
   a,
   li {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 }
 
 //  xl
 @media (min-width: 1280px) {
   .privacy__back-arrow {
-    width: variables.$size-5xl;
+    width: var(--size-5xl);
   }
 
   h1 {
-    font-size: variables.$size-5xl;
+    font-size: var(--size-5xl);
   }
 
   h2 {
-    font-size: variables.$size-3xl;
+    font-size: var(--size-3xl);
   }
 
   h3 {
-    font-size: variables.$size-2xl;
+    font-size: var(--size-2xl);
   }
 
   h4,
   p,
   a,
   li {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
   }
 }
 

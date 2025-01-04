@@ -1,5 +1,4 @@
 @use "../../styles/utils.scss" as utils;
-@use "../../styles/variables.scss" as variables;
 
 .footer {
     display: flex;
@@ -14,7 +13,7 @@
 
 .footer__link {
     text-decoration: none;
-    font-size: variables.$size-xs;
+    font-size: var(--size-xs);
 
     &:hover{
         text-decoration: underline;
@@ -31,7 +30,7 @@
 .footer__img{
     cursor: pointer;
     transition: transform 0.3s ease;
-    width: variables.$size-xs;
+    width: var(--size-xs);
     &:hover {
         transform: scale(1.2);
     }
@@ -40,7 +39,7 @@
 .footer__title{
     font-size: 0.4rem;
     font-weight: 400;
-    color: variables.$clr-slate600;
+    color: var(--clr-slate600);
     text-transform: uppercase;
     letter-spacing: 0.2em;
     user-select: none;
@@ -54,7 +53,7 @@
     }
 
     .footer__link {
-        font-size: variables.$size-sm;
+        font-size: var(--size-sm);
     }
 
     .footer__title {
@@ -62,7 +61,7 @@
     }
 
     .footer__img {
-        width: variables.$size-sm;
+        width: var(--size-sm);
     }
  } 
 
@@ -73,15 +72,15 @@
     }
 
     .footer__link {
-        font-size: variables.$size-base;
+        font-size: var(--size-base);
     }
 
     .footer__title {
-        font-size: variables.$size-xs;
+        font-size: var(--size-xs);
     }
 
     .footer__img {
-        width: variables.$size-base;
+        width: var(--size-base);
     }
  } 
 
@@ -95,15 +94,15 @@
     }
 
     .footer__link {
-        font-size: variables.$size-lg;
+        font-size: var(--size-lg);
     }
 
     .footer__title {
-        font-size: variables.$size-sm;
+        font-size: var(--size-sm);
     }
 
     .footer__img {
-        width: variables.$size-lg;
+        width: var(--size-lg);
     }
  } 
 
@@ -114,15 +113,15 @@
     }
 
     .footer__link {
-        font-size: variables.$size-xl;
+        font-size: var(--size-xl);
     }
 
     .footer__title {
-        font-size: variables.$size-base;
+        font-size: var(--size-base);
     }
 
     .footer__img {
-        width: variables.$size-xl;
+        width: var(--size-xl);
     }
  } 
 

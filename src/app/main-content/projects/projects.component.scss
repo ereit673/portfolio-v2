@@ -1,19 +1,18 @@
 @use "../../../styles/utils.scss" as utils;
-@use "../../../styles/variables.scss" as variables;
 
 .projects {
   text-align: center;
 }
 
 .projects__title {
-  font-size: variables.$size-2xl;
-  color: variables.$clr-light;
+  font-size: var(--size-2xl);
+  color: var(--clr-light);
 }
 
 .projects__description {
   max-width: 60ch;
-  font-size: variables.$size-sm;
-  color: variables.$clr-slate600;
+  font-size: var(--size-sm);
+  color: var(--clr-slate600);
   margin: 1rem auto;
 }
 
@@ -24,11 +23,11 @@
 //  xs
 @media (min-width: 475px) {
   .projects__title {
-    font-size: variables.$size-3xl;
+    font-size: var(--size-3xl);
   }
 
   .projects__description {
-    font-size: variables.$size-base;
+    font-size: var(--size-base);
     margin: 1.5rem auto;
   }
 
@@ -48,22 +47,22 @@
 //  lg
 @media (min-width: 1024px) {
   .projects__title {
-    font-size: variables.$size-4xl;
+    font-size: var(--size-4xl);
   }
 
   .projects__description {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 }
 
 //  xl
 @media (min-width: 1280px) {
   .projects__title {
-    font-size: variables.$size-5xl;
+    font-size: var(--size-5xl);
   }
 
   .projects__description {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
     margin: 2rem auto;
   }
 }

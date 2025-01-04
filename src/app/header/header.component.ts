@@ -22,4 +22,9 @@ export class HeaderComponent {
   onToggleMobileNav(){
     this.isMobileNavOpened = !this.isMobileNavOpened;
   }
+
+  toggleTheme() {
+    const body = document.body;
+    body.classList.toggle('light-mode');
+  }
 }

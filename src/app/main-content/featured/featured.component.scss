@@ -1,9 +1,8 @@
 @use "../../../styles/utils.scss" as utils;
-@use "../../../styles/variables.scss" as variables;
 
 .featured__subtitle {
-  font-size: variables.$size-sm;
-  color: variables.$clr-indigo;
+  font-size: var(--size-sm);
+  color: var(--clr-indigo);
   text-transform: capitalize;
   font-weight: 400;
 }
@@ -15,14 +14,14 @@
 }
 
 .featured__title {
-  font-size: variables.$size-2xl;
-  color: variables.$clr-light;
+  font-size: var(--size-2xl);
+  color: var(clr-light);
   text-transform: uppercase;
 }
 
 .featured__link {
-  width: variables.$size-2xl;
-  height: variables.$size-2xl;
+  width: var(--size-2xl);
+  height: var(--size-2xl);
   
 
   img{
@@ -36,8 +35,8 @@
 
 .featured__description {
   max-width: 60ch;
-  color: variables.$clr-slate600;
-  font-size: variables.$size-sm;
+  color: var(--clr-slate600);
+  font-size: var(--size-sm);
   margin: 1rem 0;
 }
 
@@ -53,20 +52,20 @@
 }
 
 .featured__label {
-  font-size: variables.$size-base;
+  font-size: var(--size-base);
   text-transform: capitalize;
   margin-bottom: 0.25em;
 }
 
 .featured__info {
-  font-size: variables.$size-sm;
-  color: variables.$clr-slate600;
+  font-size: var(--size-sm);
+  color: var(--clr-slate600);
   text-transform: capitalize;
 }
 
 .featured__info-img{
   display: inline-block;
-  width: variables.$size-base;
+  width: var(--size-base);
   margin-right: 0.25em;
   vertical-align: middle;
 }
@@ -105,33 +104,33 @@
 //  xs
 @media (min-width: 475px) {
   .featured__subtitle {
-    font-size: variables.$size-base;
+    font-size: var(--size-base);
   }
 
   .featured__title {
-    font-size: variables.$size-3xl;
+    font-size: var(--size-3xl);
   }
 
   .featured__link {
-    width: variables.$size-3xl;
-    height: variables.$size-3xl;
+    width: var(--size-3xl);
+    height: var(--size-3xl);
   }
 
   .featured__description {
-    font-size: variables.$size-base;
+    font-size: var(--size-base);
     margin: 1.5rem 0;
   }
 
   .featured__label {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 
   .featured__info {
-    font-size: variables.$size-base;
+    font-size: var(--size-base);
   }
 
   .featured__info-img{
-    width: variables.$size-lg;
+    width: var(--size-lg);
   }
 
   .featured__img-container {
@@ -153,65 +152,65 @@
 //  lg
 @media (min-width: 1024px) {
   .featured__subtitle {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 
   .featured__title {
-    font-size: variables.$size-4xl;
+    font-size: var(--size-4xl);
   }
 
   .featured__link {
-    width: variables.$size-4xl;
-    height: variables.$size-4xl;
+    width: var(--size-4xl);
+    height: var(--size-4xl);
   }
 
   .featured__description {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 
   .featured__label {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
   }
 
   .featured__info {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 
   .featured__info-img{
-    width: variables.$size-xl;
+    width: var(--size-xl);
   }
 }
 
 //  xl
 @media (min-width: 1280px) {
   .featured__subtitle {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
   }
 
   .featured__title {
-    font-size: variables.$size-5xl;
+    font-size: var(--size-5xl);
   }
 
   .featured__link {
-    width: variables.$size-5xl;
-    height: variables.$size-5xl;
+    width: var(--size-5xl);
+    height: var(--size-5xl);
   }
 
   .featured__description {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
     margin: 2rem 0;
   }
 
   .featured__label {
-    font-size: variables.$size-2xl;
+    font-size: var(--size-2xl);
   }
 
   .featured__info {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
   }
 
   .featured__info-img{
-    width: variables.$size-2xl;
+    width: var(--size-2xl);
   }
 
   .featured__img-container {

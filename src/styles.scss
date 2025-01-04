@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@use "./styles/variables.scss" as variables;
+@import url(./styles/variables.scss);
 
 @font-face {
   font-family: "General Sans";
@@ -44,8 +44,8 @@ html {
 
 body {
   font-family: "General Sans", sans-serif;
-  background-color: variables.$clr-dark;
-  color: variables.$clr-light;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
 }
 
 body,
@@ -65,13 +65,13 @@ button {
   border: none;
   background: none;
   cursor: pointer;
-  color: inherit;
+  color: var(--clr-button);
 }
 
 a {
-  color: variables.$clr-rose;
+  color: var(--clr-rose);
 }
 
 strong {
-  color: variables.$clr-indigo;
+  color: var(--clr-indigo);
 }

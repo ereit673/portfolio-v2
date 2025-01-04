@@ -1,5 +1,4 @@
 @use "../../../styles/utils.scss" as utils;
-@use "../../../styles/variables.scss" as variables;
 
 .skills {
   display: flex;
@@ -17,15 +16,15 @@
 }
 
 .skills__title {
-  font-size: variables.$size-2xl;
-  color: variables.$clr-light;
+  font-size: var(--size-2xl);
+  color: var(--clr-light);
   margin-bottom: 1rem;
 }
 
 .skills__description {
   max-width: 60ch;
-  font-size: variables.$size-sm;
-  color: variables.$clr-slate600;
+  font-size: var(--size-sm);
+  color: var(--clr-slate600);
 }
 
 .skills__grid-container {
@@ -65,8 +64,8 @@
 }
 
 .skills__skill-name {
-  font-size: variables.$size-sm;
-  color: variables.$clr-indigo;
+  font-size: var(--size-sm);
+  color: var(--clr-indigo);
   text-transform: capitalize;
   font-weight: 400;
   margin-top: 0.5rem;
@@ -74,12 +73,12 @@
 }
 
 .skill-name--rose {
-  color: variables.$clr-rose;
+  color: var(--clr-rose);
 }
 
 .skills__btn {
   text-transform: capitalize;
-  font-size: variables.$size-sm;
+  font-size: var(--size-sm);
   align-self: center;
 }
 
@@ -94,20 +93,20 @@
   }
 
   .skills__title {
-    font-size: variables.$size-3xl;
+    font-size: var(--size-3xl);
     margin-bottom: 1.5rem;
   }
 
   .skills__description {
-    font-size: variables.$size-base;
+    font-size: var(--size-base);
   }
 
   .skills__skill-name {
-    font-size: variables.$size-base;
+    font-size: var(--size-base);
   }
 
   .skills__btn {
-    font-size: variables.$size-base;
+    font-size: var(--size-base);
   }
 }
 
@@ -132,11 +131,11 @@
   }
 
   .skills__title {
-    font-size: variables.$size-4xl;
+    font-size: var(--size-4xl);
   }
 
   .skills__description {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 
   .skills__skill-icon {
@@ -145,11 +144,11 @@
   }
 
   .skills__skill-name {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 
   .skills__btn {
-    font-size: variables.$size-lg;
+    font-size: var(--size-lg);
   }
 }
 
@@ -164,12 +163,12 @@
   }
 
   .skills__title {
-    font-size: variables.$size-5xl;
+    font-size: var(--size-5xl);
     margin-bottom: 2rem;
   }
 
   .skills__description {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
   }
 
   .skills__grid-container {
@@ -177,11 +176,11 @@
   }
 
   .skills__skill-name {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
   }
 
   .skills__btn {
-    font-size: variables.$size-xl;
+    font-size: var(--size-xl);
   }
 }
 
