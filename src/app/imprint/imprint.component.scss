@@ -1,0 +1,133 @@
+@use "../../styles/utils.scss" as utils;
+@use "../../styles/variables.scss" as variables;
+
+.imprint {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100dvh - 88px - 132px);
+}
+
+.imprint__title {
+  color: variables.$clr-slate400;
+  font-size: variables.$size-4xl;
+}
+
+.imprint__subtitle {
+  color: variables.$clr-slate800;
+  font-size: variables.$size-base;
+}
+
+.imprint__address {
+  font-size: variables.$size-sm;
+  color: variables.$clr-slate600;
+}
+
+.imprint__contact {
+  font-size: variables.$size-sm;
+}
+
+.imprint__email {
+  font-size: variables.$size-sm;
+  color: variables.$clr-slate600;
+}
+
+//  xs
+@media (min-width: 475px) {
+  .imprint {
+    height: calc(100dvh - 88px - 134px);
+  }
+
+  .imprint__title {
+    font-size: variables.$size-5xl;
+  }
+
+  .imprint__subtitle {
+    font-size: variables.$size-lg;
+  }
+
+  .imprint__address {
+    font-size: variables.$size-base;
+  }
+
+  .imprint__contact {
+    font-size: variables.$size-base;
+  }
+
+  .imprint__email {
+    font-size: variables.$size-base;
+  }
+}
+
+//  sm
+@media (min-width: 640px) {
+  .imprint {
+    height: calc(100dvh - 88px - 136px);
+  }
+}
+
+//  md
+@media (min-width: 768px) {
+  .imprint {
+    height: calc(100dvh - 96px - 136px);
+  }
+}
+
+//  lg
+@media (min-width: 1024px) {
+  .imprint {
+    height: calc(100dvh - 100px - 218px);
+  }
+
+  .imprint__title {
+    font-size: variables.$size-7xl;
+  }
+
+  .imprint__subtitle {
+    font-size: variables.$size-2xl;
+  }
+
+  .imprint__address {
+    font-size: variables.$size-lg;
+  }
+
+  .imprint__contact {
+    font-size: variables.$size-lg;
+  }
+
+  .imprint__email {
+    font-size: variables.$size-lg;
+  }
+}
+
+//  xl
+@media (min-width: 1280px) {
+  .imprint {
+    height: calc(100dvh - 100px - 220px);
+  }
+
+  .imprint__title {
+    font-size: variables.$size-9xl;
+  }
+
+  .imprint__subtitle {
+    font-size: variables.$size-4xl;
+  }
+
+  .imprint__address {
+    font-size: variables.$size-xl;
+  }
+
+  .imprint__contact {
+    font-size: variables.$size-xl;
+  }
+
+  .imprint__email {
+    font-size: variables.$size-xl;
+  }
+}
+
+//  2xl
+//  @media (min-width: 1536px) {}

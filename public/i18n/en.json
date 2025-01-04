@@ -58,5 +58,10 @@
   },
   "footer": {
     "link": "Imprint"
+  },
+  "imprint": {
+    "title": "Imprint",
+    "according": "According to § 5 TMG",
+    "contact": "Contact"
   }
 }

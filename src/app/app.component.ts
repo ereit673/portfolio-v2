@@ -4,10 +4,11 @@ import { HeaderComponent } from './header/header.component';
 import { MainContentComponent } from "./main-content/main-content.component";
 import { FooterComponent } from './footer/footer.component';
 import {TranslateService, TranslateModule} from "@ngx-translate/core";
+import { ImprintComponent } from './imprint/imprint.component';
 
 @Component({
   selector: 'app-root',
-  imports: [TranslateModule, RouterOutlet, HeaderComponent, MainContentComponent, FooterComponent],
+  imports: [ImprintComponent, TranslateModule, RouterOutlet, HeaderComponent, MainContentComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

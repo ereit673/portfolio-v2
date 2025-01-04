@@ -58,5 +58,10 @@
   },
   "footer": {
     "link": "Impressum"
+  },
+  "imprint": {
+    "title": "Impressum",
+    "according": "Angaben gemäß § 5 TMG",
+    "contact": "Kontakt"
   }
 }

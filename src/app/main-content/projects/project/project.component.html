@@ -15,8 +15,12 @@
     <p class="project__description">
       {{ project.description }}
     </p>
-    <a class="btn project__btn" [href]="project.link" target="_blank"
+    <div class="project__btn-container">
+      <a class="btn project__btn" [href]="project.link" target="_blank"
       >Live test</a
     >
+    <a class="btn project__btn btn--nobackground" [href]="project.link" target="_blank">Github</a>
+    </div>
+    
   </div>
 </div>

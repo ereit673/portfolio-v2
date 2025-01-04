@@ -11,9 +11,11 @@
           "header.work" | translate
         }}</a>
       </li>
-      <li><a class="header__link" href="#contact">{{
-        "header.contact" | translate
-      }}</a></li>
+      <li>
+        <a class="header__link" href="#contact">{{
+          "header.contact" | translate
+        }}</a>
+      </li>
       <li class="header__line"></li>
       <li>
         <button class="header__sun">
@@ -28,8 +30,8 @@
           </svg>
         </button>
       </li>
-      <div class="header__languages-container">
-        <li>
+      <li>
+        <div class="header__languages-container">
           <button
             (click)="onChangeLanguage('de')"
             [class.header__language-btn-inactive]="language === 'en'"
@@ -38,8 +40,7 @@
           >
             DE
           </button>
-        </li>
-        <li>
+
           <button
             (click)="onChangeLanguage('en')"
             [class.header__language-btn-inactive]="language === 'de'"
@@ -48,10 +49,10 @@
           >
             EN
           </button>
-        </li>
-      </div>
+        </div>
+      </li>
     </ul>
-    <button class="header__bars">
+    <button class="header__bars" (click)="onToggleMobileNav()">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -66,3 +67,7 @@
     </button>
   </nav>
 </header>
+
+@if(isMobileNavOpened){
+  <app-mobile-nav [(isMobileNavOpened)]="isMobileNavOpened"/>
+}

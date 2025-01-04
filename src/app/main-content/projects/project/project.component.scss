@@ -9,7 +9,6 @@
 .project__image-wrapper {
   position: relative;
   margin-inline: auto;
-  // max-width: 19rem;
 
   &::after {
     content: "";
@@ -51,8 +50,21 @@
   margin-bottom: 1rem;
 }
 
+.project__btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .project__btn {
   font-size: variables.$size-sm;
+  width: 5rem;
+}
+
+.btn--nobackground{
+  background-color: variables.$clr-dark;
+  color: variables.$clr-light;
+  border: 1px solid variables.$clr-rose;
 }
 
 //  xs
@@ -74,6 +86,7 @@
 
   .project__btn {
     font-size: variables.$size-base;
+    width: 6rem;
   }
 }
 
@@ -176,8 +189,13 @@
     font-size: variables.$size-lg;
   }
 
+  .project__btn-container{
+    gap: 1.5rem;
+  }
+
   .project__btn {
     font-size: variables.$size-lg;
+    width: 6.5rem;
   }
 
   .project__title2 {

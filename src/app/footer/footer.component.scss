@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 2rem;
+    height: 132px;
 }
 
 .footer > * {
@@ -49,6 +49,10 @@
 
 //  xs 
  @media (min-width: 475px) {
+    .footer {
+        height: 134px;
+    }
+
     .footer__link {
         font-size: variables.$size-sm;
     }
@@ -64,6 +68,10 @@
 
 //  sm 
  @media (min-width: 640px) {
+    .footer {
+        height: 136px;
+    }
+
     .footer__link {
         font-size: variables.$size-base;
     }
@@ -82,6 +90,10 @@
 
 //  lg 
  @media (min-width: 1024px) {
+    .footer {
+        height: 218px;
+    }
+
     .footer__link {
         font-size: variables.$size-lg;
     }
@@ -97,6 +109,10 @@
 
 //  xl 
  @media (min-width: 1280px) {
+    .footer {
+        height: 220px;
+    }
+
     .footer__link {
         font-size: variables.$size-xl;
     }
