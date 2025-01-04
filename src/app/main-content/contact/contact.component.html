@@ -1,5 +1,9 @@
 <section id="contact" class="contact container section">
-  <div class="contact__info">
+  <div class="contact__info"
+  data-aos="fade-right"
+    data-aos-delay="300"
+    data-aos-duration="400"
+    data-aos-easing="ease-in-out">
     <h2 class="contact__title">{{ "contact.title" | translate }}</h2>
     <p class="contact__description">
       {{ "contact.description1" | translate }} <br /><br />{{
@@ -12,6 +16,10 @@
     (ngSubmit)="onSubmit(contactForm)"
     class="contact__form"
     #contactForm="ngForm"
+    data-aos="fade-left"
+    data-aos-delay="300"
+    data-aos-duration="400"
+    data-aos-easing="ease-in-out"
   >
     <div class="contact__input-container">
       <input
