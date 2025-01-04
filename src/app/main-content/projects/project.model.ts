@@ -4,5 +4,6 @@ export interface Project {
     imgPath: string;
     techStack: string;
     description: string;
-    link: string;
+    projectLink: string;
+    githubLink: string;
 }

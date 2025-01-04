@@ -86,7 +86,9 @@
       />
       <label class="contact__form-label" for="checkbox"
         >{{ "contact.checkbox_label1" | translate
-        }}<a href="">{{ "contact.checkbox_label2" | translate }}</a
+        }}<a href="/privacy" target="_blank">{{
+          "contact.checkbox_label2" | translate
+        }}</a
         >{{ "contact.checkbox_label3" | translate }}
       </label>
       @if((checkbox.invalid && name.valid && email.valid && message.valid) ||
@@ -97,11 +99,21 @@
       }
     </div>
 
-    <button class="contact__btn btn" type="submit">{{ "contact.btn" | translate }}</button>
+    <button
+      [class.contact__btn-valid]="
+        name.valid && email.valid && message.valid && checkbox.valid
+      "
+      class="contact__btn btn"
+      type="submit"
+    >
+      {{ "contact.btn" | translate }}
+    </button>
     @if (showSuccessMessage) {
     <div class="contact__success-message__container">
       <img class="contact__success-img" src="svg/success.svg" alt="" />
-      <h3 class="contact__success-title">{{ "contact.success-message_title" | translate }}</h3>
+      <h3 class="contact__success-title">
+        {{ "contact.success-message_title" | translate }}
+      </h3>
     </div>
     }
   </form>

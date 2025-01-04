@@ -8,6 +8,17 @@
   align-items: center;
   justify-content: center;
   height: calc(100dvh - 88px - 132px);
+  position: relative;
+}
+
+.imprint__back-arrow-wrapper{
+  position: absolute;
+  top: 24px;
+  right: 8px;
+}
+
+.imprint__back-arrow {
+  width: variables.$size-xl;
 }
 
 .imprint__title {
@@ -66,6 +77,10 @@
   .imprint {
     height: calc(100dvh - 88px - 136px);
   }
+
+  .imprint__back-arrow {
+    width: variables.$size-3xl;
+  }
 }
 
 //  md
@@ -79,6 +94,10 @@
 @media (min-width: 1024px) {
   .imprint {
     height: calc(100dvh - 100px - 218px);
+  }
+
+  .imprint__back-arrow {
+    width: variables.$size-4xl;
   }
 
   .imprint__title {
@@ -106,6 +125,10 @@
 @media (min-width: 1280px) {
   .imprint {
     height: calc(100dvh - 100px - 220px);
+  }
+
+  .imprint__back-arrow {
+    width: variables.$size-5xl;
   }
 
   .imprint__title {

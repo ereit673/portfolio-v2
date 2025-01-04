@@ -15,7 +15,7 @@ import { ImprintComponent } from './imprint/imprint.component';
 export class AppComponent {
   constructor(private translate: TranslateService) {
     this.translate.addLangs(['de', 'en']);
-    this.translate.setDefaultLang('en');
-    this.translate.use('en');
+    this.translate.setDefaultLang('de');
+    this.translate.use('de');
   }
 }

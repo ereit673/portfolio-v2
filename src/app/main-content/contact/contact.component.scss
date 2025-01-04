@@ -101,6 +101,25 @@ input[type="checkbox"] {
 .contact__btn {
   font-size: variables.$size-sm;
   align-self: center;
+  background-color: #b6b6b6;
+  cursor: not-allowed;
+  box-shadow: none;
+  &:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
+
+.contact__btn-valid {
+  background-color: variables.$clr-rose;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5),
+    0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px variables.$clr-rose;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25),
+      0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px variables.$clr-rose;
+  }
 }
 
 .contact__success-message__container {
@@ -201,7 +220,7 @@ input[type="checkbox"] {
     font-size: variables.$size-lg;
   }
 
-  .contact__success-img{
+  .contact__success-img {
     width: 5rem;
     height: 5rem;
   }

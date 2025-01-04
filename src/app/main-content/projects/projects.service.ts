@@ -15,7 +15,8 @@ export class ProjectsService {
       techStack: 'Angular | Firebase | JavaScript | HTML | CSS',
       description:
         'This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization.',
-      link: 'https://join.alexeremie.com/',
+      projectLink: 'https://join.alexeremie.com/',
+      githubLink: 'https://github.com/ereit673/join'
     },
     {
       id: '2',
@@ -24,7 +25,8 @@ export class ProjectsService {
       techStack: 'JavaScript | HTML | CSS',
       description:
         'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
-      link: 'https://join.alexeremie.com/',
+      projectLink: 'https://join.alexeremie.com/',
+      githubLink: 'https://github.com/ereit673/join'
     },
     {
       id: '3',
@@ -33,7 +35,8 @@ export class ProjectsService {
       techStack: 'JavaScript | HTML | CSS',
       description:
         'Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.',
-      link: 'https://elpolloloco.alexeremie.com/',
+      projectLink: 'https://elpolloloco.alexeremie.com/',
+      githubLink: 'https://github.com/ereit673/elpolloloco'
     },
   ];
 }
