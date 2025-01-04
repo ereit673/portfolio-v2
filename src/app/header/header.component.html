@@ -69,5 +69,8 @@
 </header>
 
 @if(isMobileNavOpened){
-  <app-mobile-nav [(isMobileNavOpened)]="isMobileNavOpened"/>
+<app-mobile-nav
+  (changeTheme)="toggleTheme()"
+  [(isMobileNavOpened)]="isMobileNavOpened"
+/>
 }

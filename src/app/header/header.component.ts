@@ -19,12 +19,17 @@ export class HeaderComponent {
     this.translate.use(language);
   }
 
-  onToggleMobileNav(){
+  onToggleMobileNav() {
     this.isMobileNavOpened = !this.isMobileNavOpened;
   }
 
   toggleTheme() {
     const body = document.body;
     body.classList.toggle('light-mode');
+    if (body.classList.contains('light-mode')) {
+      localStorage.setItem('theme', 'light-mode');
+    } else {
+      localStorage.removeItem('theme');
+    }
   }
 }

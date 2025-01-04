@@ -14,6 +14,8 @@ import AOS from 'aos';
   styleUrl: './app.component.scss'
 })
 export class AppComponent implements OnInit{
+  theme: string | null = '';
+
   constructor(private translate: TranslateService) {
     this.translate.addLangs(['de', 'en']);
     this.translate.setDefaultLang('de');
@@ -21,5 +23,15 @@ export class AppComponent implements OnInit{
 
   ngOnInit(): void {
     AOS.init();
+    this.loadTheme();
   }
+
+  loadTheme(){
+    this.theme = localStorage.getItem('theme');
+    
+    if(this.theme){
+      document.body.classList.add('light-mode');
+    }
+  }
+
 }

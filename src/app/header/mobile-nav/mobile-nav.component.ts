@@ -12,6 +12,7 @@ export class MobileNavComponent {
 
   @Input({ required: true }) isMobileNavOpened: boolean = false;
   @Output() isMobileNavOpenedChange = new EventEmitter<boolean>();
+  @Output() changeTheme = new EventEmitter<void>(); 
 
   onToggleMobileNav() {
     this.isMobileNavOpened = !this.isMobileNavOpened;
@@ -19,8 +20,7 @@ export class MobileNavComponent {
     this.isMobileNavOpenedChange.emit(this.isMobileNavOpened);
   }
 
-  toggleTheme() {
-    const body = document.body;
-    body.classList.toggle('light-mode');
+  onToggleTheme() {
+    this.changeTheme.emit();
   }
 }
