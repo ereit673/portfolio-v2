@@ -18,7 +18,11 @@
       </li>
       <li class="header__line"></li>
       <li>
-        <button (click)="toggleTheme()" class="header__sun">
+        <button
+          (click)="toggleTheme()"
+          class="header__sun"
+          aria-label="change theme"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -52,7 +56,7 @@
         </div>
       </li>
     </ul>
-    <button class="header__bars" (click)="onToggleMobileNav()">
+    <button class="header__bars" aria-label="burger menu" (click)="onToggleMobileNav()">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"

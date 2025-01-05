@@ -1,28 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
 @import url(./styles/variables.scss);
+@import url(./styles/utils.scss);
 
 @font-face {
   font-family: "General Sans";
-  src: url(/fonts/GeneralSans-Bold.ttf);
-  font-weight: bolder;
+  src: url(/fonts/GeneralSans-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "General Sans";
-  src: url(/fonts/GeneralSans-Medium.ttf);
+  src: url(/fonts/GeneralSans-Medium.ttf) format("truetype");
   font-weight: 600;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "General Sans";
-  src: url(/fonts/GeneralSans-Regular.ttf);
+  src: url(/fonts/GeneralSans-Regular.ttf) format("truetype");
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "General Sans";
-  src: url(/fonts/GeneralSans-Semibold.ttf);
-  font-weight: bold;
+  src: url(/fonts/GeneralSans-Semibold.ttf) format("truetype");
+  font-weight: 500;
+  font-display: swap;
 }
 
 * {
@@ -69,7 +73,7 @@ button {
 }
 
 a {
-  color: var(--clr-rose);
+  color: var(--clr-green);
 }
 
 strong {
@@ -79,16 +83,16 @@ strong {
 body::-webkit-scrollbar {
   width: 8px;
 }
- 
+
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
 }
- 
+
 body::-webkit-scrollbar-thumb {
-  background-color: var(--clr-rose);
-  outline: 1px solid var(--clr-rose);
+  background-color: var(--clr-green);
+  outline: 1px solid var(--clr-green);
 }
 
-.no-scroll{
+.no-scroll {
   overflow-y: hidden !important;
 }

@@ -1,5 +1,3 @@
-@use "../../../styles/utils.scss" as utils;
-
 .contact {
   display: flex;
   flex-direction: column;
@@ -70,7 +68,7 @@
 }
 
 input[type="checkbox"] {
-  accent-color: var(--clr-rose);
+  accent-color: var(--clr-green);
   position: relative;
   appearance: none;
   -webkit-appearance: none;
@@ -110,14 +108,14 @@ input[type="checkbox"] {
 }
 
 .contact__btn-valid {
-  background-color: var(--clr-rose);
+  background-color: var(--clr-green);
   cursor: pointer;
   box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5),
-    0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--clr-rose);
+    0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--clr-green);
   &:hover {
     transform: translateY(-3px);
     box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25),
-      0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-rose);
+      0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-green);
   }
 }
 
@@ -132,10 +130,12 @@ input[type="checkbox"] {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: var(--clr-slate800); /* Light green background for success */
+  background-color: var(
+    --clr-slate800
+  ); /* Light green background for success */
   border: 1px solid var(--clr-slate600);
   box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5),
-    0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--clr-rose);
+    0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--clr-green);
   text-align: center;
 }
 .contact__success-img {

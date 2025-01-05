@@ -1,5 +1,3 @@
-@use "../../styles/utils.scss" as utils;
-
 .imprint {
   text-align: center;
   display: flex;
@@ -10,7 +8,7 @@
   position: relative;
 }
 
-.imprint__back-arrow-wrapper{
+.imprint__back-arrow-wrapper {
   position: absolute;
   top: 24px;
   right: 8px;

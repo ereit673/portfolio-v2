@@ -1,5 +1,3 @@
-@use "../../../styles/utils.scss" as utils;
-
 .mobile-nav {
   position: fixed;
   top: 0;
@@ -47,7 +45,7 @@
   transition: color 0.3s;
 
   &:hover {
-    color: var(--clr-rose);
+    color: var(--clr-green);
   }
 }
 
@@ -63,7 +61,7 @@
   color: var(--clr-slate600);
 }
 
-.btn-container{
+.btn-container {
   display: flex;
   gap: 8px;
 }
@@ -77,8 +75,8 @@
   &:hover {
     &:hover {
       transform: none;
-      box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5),
-        0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--clr-rose);
+      box-shadow: 0 10px 20px rgba(76, 175, 80, 0.5),
+      0 6px 6px rgba(76, 175, 80, 0.5), 0 0 100px -10px var(--clr-green);
     }
   }
 }
@@ -91,8 +89,8 @@
   &:hover {
     &:hover {
       transform: translateY(-3px);
-      box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25),
-        0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-rose);
+      box-shadow: 0 14px 28px rgba(76, 175, 80, 0.25),
+      0 10px 10px rgba(76, 175, 80, 0.22), 0 0 120px -10px var(--clr-green);
     }
   }
 }

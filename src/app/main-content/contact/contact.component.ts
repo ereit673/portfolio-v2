@@ -1,8 +1,7 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, inject} from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
-
 
 @Component({
   selector: 'app-contact',
@@ -10,7 +9,7 @@ import { TranslateModule } from '@ngx-translate/core';
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss',
 })
-export class ContactComponent{
+export class ContactComponent {
   http = inject(HttpClient);
 
   contactData = {
