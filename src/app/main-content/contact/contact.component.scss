@@ -205,6 +205,10 @@ input[type="checkbox"] {
   .contact__description {
     font-size: var(--size-lg);
     text-align: left;
+
+    strong {
+      display: block;
+    }
   }
 
   .contact__form-input {

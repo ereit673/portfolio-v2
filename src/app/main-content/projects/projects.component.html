@@ -7,7 +7,7 @@
       "projects.description" | translate
     }}
   </p>
-    @for (project of projects; track project.id; let o = $odd) {
+    @for (project of translatedProjects; track project.id; let o = $odd) {
       <div class="projects__project">
         <app-project [project]="project" [odd]="o ? true : false"/>
       </div>
