@@ -63,7 +63,6 @@
 .skills__skill-name {
   font-size: var(--size-sm);
   color: var(--clr-indigo);
-  text-transform: capitalize;
   font-weight: 400;
   margin-top: 0.5rem;
   line-height: 0.9;
@@ -74,7 +73,6 @@
 }
 
 .skills__btn {
-  text-transform: capitalize;
   font-size: var(--size-sm);
   align-self: center;
 }

@@ -10,16 +10,16 @@
     "title2": "WEBENTWICKLER.",
     "description1": "Ein leidenschaftlicher ",
     "description2": "Front-end Webentwickler",
-    "description3": " spezialisiert auf den Bau von pixelgenauen, interaktiven Websites und Anwendungen.",
-    "btn": "Lass uns reden"
+    "description3": " spezialisiert auf die Erstellung komplexen, interaktiven Websites und Anwendungen, die höchste Präzision und Benutzerfreundlichkeit vereinen.",
+    "btn": "Nachricht senden"
   },
   "about": {
     "title": "Über mich",
     "description1": "Hallo und willkommen auf meiner Website. Ich bin ein ",
     "description2": "Frontend-Entwickler",
-    "description3": "aus München, mit einer Leidenschaft für die Entwicklung moderner und interaktiver Webanwendungen. Ich begeistere mich dafür, komplexe Probleme zu lösen und innovative Lösungen zu finden. Es freut mich sehr, dass du hier bist.",
-    "description4": "Ich bin diszipliniert und habe eine starke logische Denkweise. Menschen, die mich kennen, sagen, ich sei besessen, und sie haben wahrscheinlich recht. Ich bin ehrgeizig und liebe es, mich in neue Themen und Herausforderungen zu vertiefen.",
-    "description5": "Ich liebe es, Probleme zu lösen und kreative Lösungen zu finden, um digitale Ideen in die Realität umzusetzen. Programmieren ist für mich jeden Tag eine neue Herausforderung, die mich begeistert und motiviert, stets mein Bestes zu geben. Schau dir meine Projekte an, um zu sehen, wie ich alles zusammenbringe."
+    "description3": "aus München, mit einer Leidenschaft für die Entwicklung moderner und interaktiver Webanwendungen. Ich begeistere mich dafür, komplexe Herausforderungen anzugehen und kreative Lösungen zu entwickeln. Es freut mich sehr, dass du hier bist.",
+    "description4": "Ich bin diszipliniert und habe eine starke logische Denkweise. Meine Leidenschaft liegt in der Entwicklung von sauberem Code und einer klar strukturierten Softwarearchitektur.",
+    "description5": "Ich liebe es, kreative Lösungen zu finden und digitale Ideen in die Realität umzusetzen. Programmieren ist für mich jeden Tag eine neue Herausforderung, die mich begeistert und motiviert, stets mein Bestes zu geben. Schau dir meine Projekte an, um zu sehen, wie ich alles vereine."
   },
   "skills": {
     "title": "Meine Fähigkeiten",
@@ -27,7 +27,7 @@
     "btn": "Kontaktiere mich"
   },
   "featured": {
-    "subtitle": "Hervorgehobenes Projekt",
+    "subtitle": "Featured Project",
     "description": "Diese App ist ein Slack-Klon. Sie revolutioniert die Teamkommunikation und -zusammenarbeit mit ihrer intuitiven Benutzeroberfläche, Echtzeitnachrichten und einer robusten Kanalorganisation.",
     "label1": "Technologie-Stack",
     "label2": "Projekttyp",
