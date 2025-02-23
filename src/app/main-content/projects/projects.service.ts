@@ -17,8 +17,8 @@ export class ProjectsService {
       imgPath: 'img/projects/dabubble.png',
       techStack: 'Angular | Firebase | JavaScript | HTML | CSS',
       descriptionKey: 'projects.dabubble.description',
-      projectLink: 'https://join.alexeremie.com/',
-      githubLink: 'https://github.com/ereit673/join',
+      projectLink: 'https://dabubble.alexeremie.com/',
+      githubLink: 'https://github.com/ereit673/DABubble',
     },
     {
       id: '2',
