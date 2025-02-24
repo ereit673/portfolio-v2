@@ -135,8 +135,8 @@ input[type="checkbox"] {
     --clr-slate800
   ); /* Light green background for success */
   border: 1px solid var(--clr-slate600);
-  box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5),
-    0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--clr-green);
+  box-shadow: 0 10px 20px rgba(76, 175, 80, 0.5),
+    0 6px 6px rgba(76, 175, 80, 0.5), 0 0 100px -10px var(--clr-green);
   text-align: center;
 }
 .contact__success-img {
