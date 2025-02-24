@@ -109,12 +109,14 @@ input[type="checkbox"] {
 .contact__btn-valid {
   background-color: var(--clr-green);
   cursor: pointer;
-  box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5),
-    0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--clr-green);
+  box-shadow: 0 10px 20px rgba(76, 175, 80, 0.5),
+    0 6px 6px rgba(76, 175, 80, 0.5), 0 0 100px -10px var(--clr-green);
+  transition: transform 0.3s, box-shadow 0.3s;
+
   &:hover {
     transform: translateY(-3px);
-    box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25),
-      0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-green);
+    box-shadow: 0 14px 28px rgba(76, 175, 80, 0.25),
+      0 10px 10px rgba(76, 175, 80, 0.22), 0 0 120px -10px var(--clr-green);
   }
 }
 
