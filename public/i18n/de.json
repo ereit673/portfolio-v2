@@ -40,11 +40,14 @@
     "dabubble": {
       "description": "Diese App ist ein Slack-Klon. Sie revolutioniert die Teamkommunikation und Zusammenarbeit mit ihrer intuitiven Benutzeroberfläche, Echtzeitnachrichten und robuster Kanalorganisation."
     },
-    "join": {
-      "description": "Ein Aufgabenmanager inspiriert vom Kanban-System. Erstelle und organisiere Aufgaben mit Drag-and-Drop-Funktionen, weise Benutzern und Kategorien zu."
-    },
     "elpolloloco": {
       "description": "Ein Jump-'n'-Run-Spiel basierend auf einem objektorientierten Ansatz. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen das verrückte Huhn zu kämpfen."
+    },
+    "coderr": {
+      "description": "Coderr bringt Ideen und Talente zusammen – finde Experten oder biete deine Skills an, alles in einem kreativen Marktplatz."
+    },
+    "videoflix": {
+      "description": "Videoflix ist eine moderne Streaming-Plattform – genieße deine Lieblingsvideos mit einem reibungslosen, von Netflix inspirierten Erlebnis. Entwickelt für Geschwindigkeit und Stil."
     }
   },
   "contact": {

@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { Project, ProjectToTranslate } from './project.model';
 import { TranslateService, TranslateModule } from '@ngx-translate/core';
 import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root',
@@ -22,15 +21,25 @@ export class ProjectsService {
     },
     {
       id: '2',
-      title: 'Join',
-      imgPath: 'img/projects/join.png',
-      techStack: 'JavaScript | HTML | CSS',
-      descriptionKey: 'projects.join.description',
-      projectLink: 'https://join.alexeremie.com/',
-      githubLink: 'https://github.com/ereit673/join',
+      title: 'Coderr',
+      imgPath: 'img/projects/coderr.png',
+      techStack: 'Django | Django REST framework | Python',
+      descriptionKey: 'projects.coderr.description',
+      projectLink: 'https://coderr.alexeremie.com/',
+      githubLink: 'https://github.com/ereit673/coderr-backend',
     },
     {
       id: '3',
+      title: 'Videoflix',
+      imgPath: 'img/projects/videoflix.png',
+      techStack:
+        'Django | Django REST framework | PostgreSQL | Redis | Django rq | Docker',
+      descriptionKey: 'projects.videoflix.description',
+      projectLink: 'https://videoflix.alexeremie.com/',
+      githubLink: 'https://github.com/ereit673/videoflix-backend',
+    },
+    {
+      id: '4',
       title: 'El Pollo Loco',
       imgPath: 'img/projects/elpolloloco.png',
       techStack: 'JavaScript | HTML | CSS',
