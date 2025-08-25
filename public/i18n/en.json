@@ -6,24 +6,24 @@
   },
   "hero": {
     "subtitle": "Hi, I'm Alex",
-    "title1": "FRONT-END ",
+    "title1": "FULL-STACK ",
     "title2": "WEB DEVELOPER.",
     "description1": "A passionate ",
-    "description2": "Front-end web developer",
-    "description3": " specialized in building pixel perfect interactive websites/applications.",
+    "description2": "Full-Stack Web Developer",
+    "description3": " specialized in building modern, responsive, and scalable web applications.",
     "btn": "Reach out"
   },
   "about": {
     "title": "About me",
     "description1": "Hi there! Welcome to my website. I'm a ",
-    "description2": "Frontend Developer",
-    "description3": "based in Munich, Germany, passionate about solving complex problems and taking on new challenges. I'm happy that you've found my corner of the web.",
-    "description4": "I am disciplined and have a strong logical mindset. People who know me say I'm obsessed and they're probably right, I am driven and love diving into new things.",
-    "description5": "I enjoy solving problems and coming up with creative solutions to turn digital ideas into reality. Programming pushes me every day and keeps me excited about what I do. Check out my projects to see how I bring it all together."
+    "description2": "Full-Stack Web Developer",
+    "description3": " based in Munich, Germany, passionate about solving complex problems and taking on new challenges. I'm glad you've found my corner of the web.",
+    "description4": "I am disciplined and have a strong logical mindset. People who know me say I'm obsessed — and they're probably right. I'm driven and love diving into new technologies.",
+    "description5": "I enjoy solving problems and coming up with creative solutions to turn digital ideas into reality. Programming challenges me every day and keeps me excited about what I do. Check out my projects to see how I bring it all together."
   },
   "skills": {
-    "title": "My skills",
-    "description": "I have grown my frontend developments skills that have allowed me to create different real projects.",
+    "title": "My Skills",
+    "description": "I have developed strong full-stack skills that allow me to build real-world applications from frontend to backend.",
     "btn": "Get in touch"
   },
   "featured": {
@@ -56,7 +56,7 @@
   "contact": {
     "title": "Get in contact",
     "description1": "Contact me through this form. I’d love to hear from you, learn about your ideas, and contribute to your projects with my skills.",
-    "description2": "Need a Frontend developer?",
+    "description2": "Need a Full-Stack Developer?",
     "description3": " Let’s talk!",
     "placeholder_name": "Your name",
     "warningtext_name": "Your name is required",

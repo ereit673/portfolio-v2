@@ -6,25 +6,25 @@
   },
   "hero": {
     "subtitle": "Hi, ich bin Alex",
-    "title1": "FRONT-END",
+    "title1": "FULL-STACK ",
     "title2": "WEBENTWICKLER.",
     "description1": "Ein leidenschaftlicher ",
-    "description2": "Front-end Webentwickler",
-    "description3": " spezialisiert auf die Erstellung komplexen, interaktiven Websites und Anwendungen, die höchste Präzision und Benutzerfreundlichkeit vereinen.",
-    "btn": "Nachricht senden"
+    "description2": "Full-Stack Webentwickler",
+    "description3": " mit Schwerpunkt auf modernen, responsiven und skalierbaren Webanwendungen.",
+    "btn": "Kontakt aufnehmen"
   },
   "about": {
     "title": "Über mich",
-    "description1": "Hallo und willkommen auf meiner Website. Ich bin ein ",
-    "description2": "Frontend-Entwickler",
-    "description3": "aus München, mit einer Leidenschaft für die Entwicklung moderner und interaktiver Webanwendungen. Ich begeistere mich dafür, komplexe Herausforderungen anzugehen und kreative Lösungen zu entwickeln. Es freut mich sehr, dass du hier bist.",
-    "description4": "Ich bin diszipliniert und habe eine starke logische Denkweise. Meine Leidenschaft liegt in der Entwicklung von sauberem Code und einer klar strukturierten Softwarearchitektur.",
-    "description5": "Ich liebe es, kreative Lösungen zu finden und digitale Ideen in die Realität umzusetzen. Programmieren ist für mich jeden Tag eine neue Herausforderung, die mich begeistert und motiviert, stets mein Bestes zu geben. Schau dir meine Projekte an, um zu sehen, wie ich alles vereine."
+    "description1": "Hallo! Willkommen auf meiner Website. Ich bin ein ",
+    "description2": "Full-Stack Webentwickler",
+    "description3": " aus München, leidenschaftlich darin, komplexe Probleme zu lösen und neue Herausforderungen anzunehmen. Ich freue mich, dass du meine Website gefunden hast.",
+    "description4": "Ich bin diszipliniert und habe eine ausgeprägte logische Denkweise. Menschen, die mich kennen, sagen, ich sei besessen – und wahrscheinlich haben sie recht. Ich bin zielstrebig und liebe es, in neue Technologien einzutauchen.",
+    "description5": "Ich habe Freude daran, Probleme zu lösen und kreative Lösungen zu entwickeln, um digitale Ideen Wirklichkeit werden zu lassen. Programmieren fordert mich jeden Tag heraus und begeistert mich immer wieder aufs Neue. Schau dir meine Projekte an und sieh, wie ich alles zusammenbringe."
   },
   "skills": {
     "title": "Meine Fähigkeiten",
-    "description": "Ich habe meine Frontend-Entwicklungsfähigkeiten weiterentwickelt, was es mir ermöglicht hat, verschiedene reale Projekte zu erstellen.",
-    "btn": "Kontaktiere mich"
+    "description": "Ich habe meine Full-Stack-Fähigkeiten kontinuierlich ausgebaut, wodurch ich Anwendungen von Frontend bis Backend realisieren kann.",
+    "btn": "Kontakt aufnehmen"
   },
   "featured": {
     "subtitle": "Featured Project",
@@ -36,7 +36,7 @@
   },
   "projects": {
     "title": "Projekte",
-    "description": "Erkunde hier eine Auswahl meiner Arbeiten – interagiere mit den Projekten, um meine Fähigkeiten in Aktion zu sehen.",
+    "description": "Entdecke hier eine Auswahl meiner Arbeiten – klicke dich durch die Projekte, um meine Fähigkeiten in Aktion zu sehen.",
     "dabubble": {
       "description": "Diese App ist ein Slack-Klon. Sie revolutioniert die Teamkommunikation und Zusammenarbeit mit ihrer intuitiven Benutzeroberfläche, Echtzeitnachrichten und robuster Kanalorganisation."
     },
@@ -52,8 +52,8 @@
   },
   "contact": {
     "title": "Kontakt aufnehmen",
-    "description1": "Kontaktiere mich über dieses Formular. Ich freue mich darauf, von dir zu hören, mehr über deine Ideen zu erfahren und mit meinen Fähigkeiten zu deinen Projekten beizutragen.",
-    "description2": "Brauchst du einen Frontend-Entwickler?",
+    "description1": "Kontaktiere mich über dieses Formular. Ich freue mich darauf, von dir zu hören, mehr über deine Ideen zu erfahren und deine Projekte mit meinen Fähigkeiten umzusetzen.",
+    "description2": "Suchst du einen Full-Stack Entwickler?",
     "description3": " Lass uns sprechen!",
     "placeholder_name": "Dein Name",
     "warningtext_name": "Dein Name ist erforderlich",
@@ -62,11 +62,11 @@
     "placeholder_message": "Deine Nachricht",
     "warningtext_message": "Deine Nachricht ist leer",
     "checkbox_label1": "Ich habe die ",
-    "checkbox_label2": "Datenschutzrichtlinie",
+    "checkbox_label2": "Datenschutzerklärung",
     "checkbox_label3": " gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
-    "warningtext_checkbox": "Bitte akzeptiere die Datenschutzrichtlinie",
+    "warningtext_checkbox": "Bitte akzeptiere die Datenschutzerklärung",
     "btn": "Nachricht senden",
-    "success-message_title": "Danke für deine Nachricht!"
+    "success-message_title": "Vielen Dank für deine Nachricht!"
   },
   "footer": {
     "link": "Impressum"
